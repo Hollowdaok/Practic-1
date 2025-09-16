@@ -15,3 +15,5 @@ def check_case(s):
     else:
         return "Змішані"
 
+def to_upper_list(word):
+    return [ch.upper() for ch in word]
